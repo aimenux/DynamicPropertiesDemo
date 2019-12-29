@@ -7,4 +7,4 @@
 - `Solution 2` : based on some newtonsoft json specific attribute.
 - `Solution 3` : adapted from Rick Strahl expando library.
 
-**`Tools used`** : `vs19, net core 3.1, newtonsoft json, nunit, fluent assertions`
+**`Tools`** : `vs19, net core 3.1, newtonsoft json, nunit, fluent assertions`
