@@ -1,0 +1,19 @@
+﻿{
+  "email": "john@snow.com",
+  "user_id": "auth0|111a366de8e57fe426d23100",
+  "picture": "https://s.gravatar.com/avatar/file1.png",
+  "first_name": "john",
+  "last_name": "snow",
+  "identities": [
+    {
+      "user_id": "a1efe1",
+      "provider": "auth0"
+    }
+  ],
+  "updated_at": "2019-01-22T07:36:32.419Z",
+  "created_at": "2017-01-04T09:07:57.302Z",
+  "last_password_reset": "2019-01-17T16:50:27.407Z",
+  "last_ip": "154.119.56.252",
+  "last_login": "2010-01-22T07:36:32.418Z",
+  "logins_count": 11
+}
