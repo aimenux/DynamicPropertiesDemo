@@ -5,6 +5,6 @@
 
 - `Solution 1` : based on inheriting model from dictionary ms type.
 - `Solution 2` : based on some newtonsoft json specific attribute.
-- `Solution 3` : adapted from Rick Strahl expando library.
+- `Solution 3` : adapted from [Rick Strahl expando library](https://github.com/RickStrahl/Expando).
 
 **`Tools`** : `vs19, net core 3.1, newtonsoft json, nunit, fluent assertions`
