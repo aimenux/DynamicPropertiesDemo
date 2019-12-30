@@ -1,6 +1,6 @@
 ﻿namespace Lib.Models.V3
 {
-    public class UserProfile : Expando, IDynamicProperties
+    public class UserProfile : CustomDynamicObject, IDynamicProperties
     {
         public string FirstName => GetPropertyValue<string>("first_name");
 

@@ -8,7 +8,7 @@ using System.Reflection;
 namespace Lib.Models.V3
 {
     [Serializable]
-    public class Expando : DynamicObject
+    public class CustomDynamicObject : DynamicObject
     {
         [NonSerialized]
         private PropertyInfo[] _propertiesInfos;
@@ -16,7 +16,7 @@ namespace Lib.Models.V3
         [NonSerialized]
         private readonly Dictionary<string, object> _properties;
 
-        public Expando() 
+        public CustomDynamicObject() 
         {
             _propertiesInfos = GetPropertiesInfos();
             _properties = new Dictionary<string, object>();
