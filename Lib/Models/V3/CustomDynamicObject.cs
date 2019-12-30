@@ -43,11 +43,6 @@ namespace Lib.Models.V3
 
         public override bool TryGetMember(GetMemberBinder binder, out object result)
         {
-            if (_properties.TryGetValue(binder.Name, out result))
-            {
-                return true;
-            }
-
             try
             {
                 return GetProperty(binder.Name, out result);
